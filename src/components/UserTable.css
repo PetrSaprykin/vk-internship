@@ -1,0 +1,31 @@
+.user-table {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.table-header,
+.table-row {
+  display: grid;
+  align-items: center;
+  padding: 8px 12px;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+.table-cell {
+  padding: 4px 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.loading {
+  background-color: #fafafa;
+  font-style: italic;
+  color: #666;
+}
